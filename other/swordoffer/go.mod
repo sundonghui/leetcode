@@ -1,4 +1,4 @@
-module leetcode
+module swordoffer
 
 go 1.18
 
