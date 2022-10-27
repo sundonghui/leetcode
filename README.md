@@ -2,6 +2,10 @@
 
 ## 算法
 
+| # | 题目 | 题解 | 难度 |
+|---| ----- | -------- | ---------- |
+|1|[两数之和](https://leetcode.cn/problems/two-sum/) | [Go](./algorithms/go/twoSum/twoSum.go)|简单|
+
 ## 数据库
 
 ## Shell
@@ -11,6 +15,7 @@
 
 # 其他
 ## 剑指 Offer（第二版）
+
 | # | 题目 | 题解 | 难度 |
 |---| ----- | -------- | ---------- |
 |3|[数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [Go](./other/swordoffer/go/findRepeatNumber/findRepeatNumber.go)|简单|
