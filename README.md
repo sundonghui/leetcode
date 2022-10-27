@@ -10,8 +10,11 @@
 
 ## Shell
 
-## 多线程
+| # | 题目 | 题解 | 难度 |
+|---| ----- | -------- | ---------- |
+|195|[第十行](https://leetcode.cn/problems/tenth-line/)|[Shell](./shell/tenthline/bash.sh)|简单|
 
+## 多线程
 
 # 其他
 ## 剑指 Offer（第二版）
