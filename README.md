@@ -28,3 +28,5 @@
 |7|[重建二叉树](https://leetcode.cn/problems/zhong-jian-er-cha-shu-lcof/) | [Go](./other/swordoffer/go/buildTree/buildTree.go)|中等|
 |9|[用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [Go](./other/swordoffer/go/cQueue/cQueue.go)|简单|
 |10-I|[斐波那契数列](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/) | [Go](./other/swordoffer/go/fib/fib.go)|简单|
+|10-II|[青蛙跳台阶问题](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) | [Go](./other/swordoffer/go/numWays/numWays.go)|简单|
+|11|[旋转数组的最小数字](https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) | [Go](./other/swordoffer/go/minArray/minArray.go)|简单|
