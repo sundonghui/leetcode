@@ -30,3 +30,5 @@
 |10-I|[斐波那契数列](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/) | [Go](./other/swordoffer/go/fib/fib.go)|简单|
 |10-II|[青蛙跳台阶问题](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) | [Go](./other/swordoffer/go/numWays/numWays.go)|简单|
 |11|[旋转数组的最小数字](https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) | [Go](./other/swordoffer/go/minArray/minArray.go)|简单|
+|12|[矩阵中的路径](https://leetcode.cn/problems/ju-zhen-zhong-de-lu-jing-lcof/) | [Go](./other/swordoffer/go/exist/exist.go)|中等|
+|14-I|[剪绳子](https://leetcode.cn/problems/jian-sheng-zi-lcof/) | [Go](./other/swordoffer/go/cuttingRope/cuttingRope.go)|中等|
