@@ -18,3 +18,16 @@ func max(x, y int) int {
 	}
 	return y
 }
+
+func cuttingRope2(n int) int {
+	mod := int(1e9 + 7)
+	if n <= 3 {
+		return n - 1
+	}
+	r := 1
+	for n > 4 {
+		r = r * 3 % mod
+		n -= 3
+	}
+	return r * n % mod
+}
