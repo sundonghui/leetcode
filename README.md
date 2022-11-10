@@ -36,3 +36,4 @@
 | 14-II | [剪绳子 II](https://leetcode.cn/problems/jian-sheng-zi-ii-lcof/)                              | [Go](./other/swordoffer/go/cuttingRope/cuttingRope.go)                 | 中等 |
 | 15    | [二进制中 1 的个数](https://leetcode.cn/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)           | [Go](./other/swordoffer/go/hammingWeight/hammingWeight.go)             | 简单 |
 | 16    | [数值的整数次方](https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)             | [Go](./other/swordoffer/go/myPow/myPow.go)                             | 中等 |
+| 17    | [打印从 1 到最大的 n 位数](https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)             | [Go](./other/swordoffer/go/printNumbers/printNumbers.go)                             | 简单 |
