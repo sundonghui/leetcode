@@ -43,3 +43,4 @@
 | 21    | [调整数组顺序使奇数位于偶数前面](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | [Go](./other/swordoffer/go/exchange/exchange.go)                       | 简单 |
 | 22    | [链表中倒数第 k 个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)                               | [Go](./other/swordoffer/go/getKthFromEnd/getKthFromEnd.go)             | 简单 |
 | 24    | [反转链表](https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/)                                                                | [Go](./other/swordoffer/go/reverseList/reverseList.go)                 | 简单 |
+| 25    | [合并两个排序的链表](https://leetcode.cn/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/)                                     | [Go](./other/swordoffer/go/mergeTwoLists/mergeTwoLists.go)             | 简单 |
