@@ -44,3 +44,4 @@
 | 22    | [链表中倒数第 k 个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)                               | [Go](./other/swordoffer/go/getKthFromEnd/getKthFromEnd.go)             | 简单 |
 | 24    | [反转链表](https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/)                                                                | [Go](./other/swordoffer/go/reverseList/reverseList.go)                 | 简单 |
 | 25    | [合并两个排序的链表](https://leetcode.cn/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/)                                     | [Go](./other/swordoffer/go/mergeTwoLists/mergeTwoLists.go)             | 简单 |
+| 26    | [树的子结构](https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof/)                                                                | [Go](./other/swordoffer/go/isSubStructure/isSubStructure.go)           | 中等 |
