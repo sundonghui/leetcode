@@ -46,4 +46,6 @@
 | 25    | [合并两个排序的链表](https://leetcode.cn/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/)                                     | [Go](./other/swordoffer/go/mergeTwoLists/mergeTwoLists.go)             | 简单 |
 | 26    | [树的子结构](https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof/)                                                                | [Go](./other/swordoffer/go/isSubStructure/isSubStructure.go)           | 中等 |
 | 27    | [二叉树的镜像](https://leetcode.cn/problems/er-cha-shu-de-jing-xiang-lcof/)                                                       | [Go](./other/swordoffer/go/mirrorTree/mirrorTree.go)                   | 简单 |
-| 28    | [顺时针打印矩阵](https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)                                                       | [Go](./other/swordoffer/go/spiralOrder/spiralOrder.go)                   | 简单 |
+| 28    | [对称的二叉树](https://leetcode.cn/problems/dui-cheng-de-er-cha-shu-lcof/)                                                        | [Go](./other/swordoffer/go/isSymmetric/isSymmetric.go)                 | 简单 |
+| 29    | [顺时针打印矩阵](https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)                                                 | [Go](./other/swordoffer/go/spiralOrder/spiralOrder.go)                 | 简单 |
+| 30    | [包含 min 函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/)                                                | [Go](./other/swordoffer/go/minStack/minStack.go)                       | 简单 |
