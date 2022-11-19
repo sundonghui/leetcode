@@ -46,3 +46,4 @@
 | 25    | [合并两个排序的链表](https://leetcode.cn/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/)                                     | [Go](./other/swordoffer/go/mergeTwoLists/mergeTwoLists.go)             | 简单 |
 | 26    | [树的子结构](https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof/)                                                                | [Go](./other/swordoffer/go/isSubStructure/isSubStructure.go)           | 中等 |
 | 27    | [二叉树的镜像](https://leetcode.cn/problems/er-cha-shu-de-jing-xiang-lcof/)                                                       | [Go](./other/swordoffer/go/mirrorTree/mirrorTree.go)                   | 简单 |
+| 28    | [顺时针打印矩阵](https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)                                                       | [Go](./other/swordoffer/go/spiralOrder/spiralOrder.go)                   | 简单 |
