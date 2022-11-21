@@ -32,7 +32,7 @@ func levelOrder(root *TreeNode) []int {
 	return ans
 }
 
-func levelOrder2(root *TreeNode) []int {
+func LevelOrder(root *TreeNode) []int {
 	if root == nil {
 		return []int{}
 	}

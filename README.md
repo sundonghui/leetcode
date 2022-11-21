@@ -51,3 +51,4 @@
 | 30     | [包含 min 函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/)                                                | [Go](./other/swordoffer/go/minStack/minStack.go)                             | 简单 |
 | 31     | [栈的压入、弹出序列](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/)                                             | [Go](./other/swordoffer/go/validateStackSequences/validateStackSequences.go) | 中等 |
 | 32 - I | [从上到下打印二叉树](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)                                     | [Go](./other/swordoffer/go/levelOrder/levelOrder.go)                         | 中等 |
+| 32 - II | [从上到下打印二叉树 II](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)                                     | [Go](./other/swordoffer/go/levelOrder/levelOrder2.go)                         | 中等 |
