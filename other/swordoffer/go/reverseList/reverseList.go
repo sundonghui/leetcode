@@ -1,19 +1,19 @@
 package reverselist
 
 type ListNode struct {
-	Val int
+	Val  int
 	Next *ListNode
 }
 
 func reverseList(head *ListNode) *ListNode {
-    var prev *ListNode
+	var prev *ListNode
 	for head != nil {
-        next := head.Next
+		next := head.Next
 
-        head.Next = prev
-        prev = head
+		head.Next = prev
+		prev = head
 
-        head = next
-    }
-    return prev
+		head = next
+	}
+	return prev
 }

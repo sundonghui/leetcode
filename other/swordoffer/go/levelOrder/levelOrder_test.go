@@ -22,7 +22,7 @@ func TestLevelOrder(t *testing.T) {
 			},
 		},
 	}
-	expected := []int{3,9,20,15,7}
+	expected := []int{3, 9, 20, 15, 7}
 	assert.Equal(t, expected, levelOrder(root))
 
 	root1 := &TreeNode{
@@ -40,10 +40,9 @@ func TestLevelOrder(t *testing.T) {
 			},
 		},
 	}
-	expected1 := []int{3,9,20,15,7}
+	expected1 := []int{3, 9, 20, 15, 7}
 	assert.Equal(t, expected1, LevelOrder(root1))
 }
-
 
 func TestLevelOrder2(t *testing.T) {
 	root := &TreeNode{

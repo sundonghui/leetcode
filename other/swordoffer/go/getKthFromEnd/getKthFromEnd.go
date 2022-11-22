@@ -2,11 +2,11 @@ package getkthfromend
 
 // Definition for singly-linked list.
 type ListNode struct {
-	Val int
+	Val  int
 	Next *ListNode
 }
- 
- func getKthFromEnd(head *ListNode, k int) *ListNode {
+
+func getKthFromEnd(head *ListNode, k int) *ListNode {
 	i := 0
 	prev := head
 	for head != nil {

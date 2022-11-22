@@ -52,4 +52,5 @@
 | 31       | [栈的压入、弹出序列](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/)                                             | [Go](./other/swordoffer/go/validateStackSequences/validateStackSequences.go) | 中等 |
 | 32 - I   | [从上到下打印二叉树](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)                                     | [Go](./other/swordoffer/go/levelOrder/levelOrder.go)                         | 中等 |
 | 32 - II  | [从上到下打印二叉树 II](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)                               | [Go](./other/swordoffer/go/levelOrder/levelOrder2.go)                        | 简单 |
-| 32 - III | [从上到下打印二叉树 III](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)                             | [Go](./other/swordoffer/go/levelOrder/levelOrder2.go)                        | 中等 |
+| 32 - III | [从上到下打印二叉树 III](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)                             | [Go](./other/swordoffer/go/levelOrder/levelOrder3.go)                        | 中等 |
+| 33       | [二叉搜索树的后序遍历序列](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)                        | [Go](./other/swordoffer/go/verifyPostorder/verifyPostorder.go)               | 中等 |

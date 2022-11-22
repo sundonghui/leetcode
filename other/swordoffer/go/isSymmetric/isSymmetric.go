@@ -2,15 +2,15 @@ package issymmetric
 
 // Definition for a binary tree node.
 type TreeNode struct {
-	Val int
-	Left *TreeNode
+	Val   int
+	Left  *TreeNode
 	Right *TreeNode
 }
 
 func isSymmetric(root *TreeNode) bool {
 	return check(root.Left, root.Right)
 }
-func check(l, r *TreeNode)  bool {
+func check(l, r *TreeNode) bool {
 	if l == nil && r == nil {
 		return true
 	}

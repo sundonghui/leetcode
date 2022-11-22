@@ -10,10 +10,10 @@ func TestMirrorTree(t *testing.T) {
 	root := &TreeNode{
 		Val: 1,
 		Left: &TreeNode{
-			Val: 2,	
+			Val: 2,
 			Right: &TreeNode{
 				Val: 10,
-			},		
+			},
 		},
 		Right: &TreeNode{
 			Val: 3,
@@ -25,10 +25,10 @@ func TestMirrorTree(t *testing.T) {
 	expected := &TreeNode{
 		Val: 1,
 		Right: &TreeNode{
-			Val: 2,	
+			Val: 2,
 			Left: &TreeNode{
 				Val: 10,
-			},			
+			},
 		},
 		Left: &TreeNode{
 			Val: 3,

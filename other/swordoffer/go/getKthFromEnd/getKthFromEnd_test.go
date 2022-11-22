@@ -9,20 +9,20 @@ import (
 func TestGetKthFromEnd(t *testing.T) {
 	head := &ListNode{
 		Val: 1,
-		Next:	&ListNode{
+		Next: &ListNode{
 			Val: 2,
-			Next:	&ListNode{
+			Next: &ListNode{
 				Val: 3,
-				Next:	&ListNode{
+				Next: &ListNode{
 					Val: 4,
-					Next:	&ListNode{
+					Next: &ListNode{
 						Val: 5,
 					},
 				},
 			},
 		},
 	}
-	expected :=  &ListNode{
+	expected := &ListNode{
 		Val: 4,
 		Next: &ListNode{
 			Val: 5,

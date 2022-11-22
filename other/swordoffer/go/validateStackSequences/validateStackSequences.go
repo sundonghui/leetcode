@@ -10,5 +10,5 @@ func validateStackSequences(pushed []int, popped []int) bool {
 			j++
 		}
 	}
-	return len(st)==0
+	return len(st) == 0
 }

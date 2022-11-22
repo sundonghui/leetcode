@@ -1,10 +1,10 @@
 package deletenode
 
 type ListNode struct {
-	Val int
+	Val  int
 	Next *ListNode
 }
-	
+
 func deleteNode(head *ListNode, val int) *ListNode {
 	if head.Val == val {
 		return head.Next
@@ -18,7 +18,7 @@ func deleteNode1(head *ListNode, val int) *ListNode {
 		return head.Next
 	}
 	prev, cur := head, head
-	for cur != nil && cur.Val !=  val {
+	for cur != nil && cur.Val != val {
 		prev, cur = cur, cur.Next
 	}
 	if cur != nil {

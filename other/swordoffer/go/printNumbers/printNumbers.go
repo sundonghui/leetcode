@@ -14,8 +14,8 @@ func quickCal(n, y int) int {
 		return 1
 	}
 	x := quickCal(n, y/2)
-	if y %2 == 0 {
-		return x*x
+	if y%2 == 0 {
+		return x * x
 	}
-	return n*x*x
+	return n * x * x
 }

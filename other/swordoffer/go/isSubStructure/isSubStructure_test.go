@@ -10,7 +10,7 @@ func TestIsSubStructure(t *testing.T) {
 	a := &TreeNode{
 		Val: 1,
 		Left: &TreeNode{
-			Val: 2,			
+			Val: 2,
 		},
 		Right: &TreeNode{
 			Val: 3,
@@ -25,6 +25,6 @@ func TestIsSubStructure(t *testing.T) {
 			Val: 4,
 		},
 	}
-	
-	assert.Equal(t,true, isSubStructure(a, b))
+
+	assert.Equal(t, true, isSubStructure(a, b))
 }

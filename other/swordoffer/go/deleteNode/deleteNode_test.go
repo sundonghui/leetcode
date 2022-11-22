@@ -14,7 +14,7 @@ func TestDeleteNode(t *testing.T) {
 			Next: &ListNode{
 				Val: 1,
 				Next: &ListNode{
-					Val: 9,
+					Val:  9,
 					Next: nil,
 				},
 			},
@@ -25,7 +25,7 @@ func TestDeleteNode(t *testing.T) {
 		Next: &ListNode{
 			Val: 5,
 			Next: &ListNode{
-				Val: 9,
+				Val:  9,
 				Next: nil,
 			},
 		},

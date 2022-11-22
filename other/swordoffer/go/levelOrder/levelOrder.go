@@ -5,12 +5,12 @@ import (
 )
 
 type TreeNode struct {
-	Val int
-	Left *TreeNode
+	Val   int
+	Left  *TreeNode
 	Right *TreeNode
 }
-	
-func levelOrder(root *TreeNode) []int {	
+
+func levelOrder(root *TreeNode) []int {
 	for root == nil {
 		return []int{}
 	}
@@ -36,7 +36,7 @@ func LevelOrder(root *TreeNode) []int {
 	if root == nil {
 		return []int{}
 	}
-	
+
 	ans := []int{}
 	queue := []*TreeNode{root}
 	for len(queue) > 0 {
@@ -50,7 +50,7 @@ func LevelOrder(root *TreeNode) []int {
 			if tree.Right != nil {
 				queue = append(queue, tree.Right)
 			}
-		}		
+		}
 	}
 	return ans
 }
