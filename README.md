@@ -54,3 +54,4 @@
 | 32 - II  | [从上到下打印二叉树 II](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)                               | [Go](./other/swordoffer/go/levelOrder/levelOrder2.go)                        | 简单 |
 | 32 - III | [从上到下打印二叉树 III](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)                             | [Go](./other/swordoffer/go/levelOrder/levelOrder3.go)                        | 中等 |
 | 33       | [二叉搜索树的后序遍历序列](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)                        | [Go](./other/swordoffer/go/verifyPostorder/verifyPostorder.go)               | 中等 |
+| 34       | [二叉树中和为某一值的路径](https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/)                        | [Go](./other/swordoffer/go/pathSum/pathSum.go)               | 中等 |
