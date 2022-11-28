@@ -6,26 +6,28 @@ func getLeastNumbers(arr []int, k int) []int {
 }
 
 func quickSort(nums []int, left, right int) []int {
-	if left > right {
-		return nil
+	if left < right {
+		index := partition(nums, left, right)
+		quickSort(nums, left, index-1)
+		quickSort(nums, index+1, right)
 	}
-
-	i, j, pivot := left, right, nums[left]
-	for i < j {
-		// 寻找小于主元的右边元素
-		for i < j && nums[j] >= pivot {
-			j--
-		}
-		// 寻找大于主元的左边元素
-		for i < j && nums[i] <= pivot {
-			i++
-		}
-		// 交换i/j下标元素
-		nums[i], nums[j] = nums[j], nums[i]
-	}
-	// 交换元素
-	nums[i], nums[left] = nums[left], nums[i]
-	quickSort(nums, left, i-1)
-	quickSort(nums, i+1, right)
 	return nums
+}
+
+func partition(nums []int, left, right int) int {
+	pivot := left
+	index := pivot + 1
+
+	for i := index; i <= right; i++ {
+		if nums[i] < nums[pivot] {
+			swap(nums,i, index)
+			index++
+		}
+	}
+	swap(nums, pivot, index-1)
+	return index-1
+}
+
+func swap(nums []int, i, j int) {
+	nums[i], nums[j] = nums[j], nums[i]
 }
