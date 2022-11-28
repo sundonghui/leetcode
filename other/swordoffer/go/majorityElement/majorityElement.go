@@ -2,7 +2,7 @@ package majorityelement
 
 func majorityElement(nums []int) int {
 	numsMap := make(map[int]int)
-	half := len(nums)/2
+	half := len(nums) / 2
 	for _, v := range nums {
 		numsMap[v]++
 		if numsMap[v] > half {

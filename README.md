@@ -56,3 +56,6 @@
 | 33       | [二叉搜索树的后序遍历序列](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)                        | [Go](./other/swordoffer/go/verifyPostorder/verifyPostorder.go)               | 中等 |
 | 34       | [二叉树中和为某一值的路径](https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/)                      | [Go](./other/swordoffer/go/pathSum/pathSum.go)                               | 中等 |
 | 35       | [复杂链表的复制](https://leetcode.cn/problems/fu-za-lian-biao-de-fu-zhi-lcof/)                                                    | [Go](./other/swordoffer/go/copyRandomList/copyRandomList.go)                 | 中等 |
+| 38       | [ 字符串的排列](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/)                                                        | [Go](./other/swordoffer/go/permutation/permutation.go)                       | 中等 |
+| 39       | [ 数组中出现次数超过一半的数字](https://leetcode.cn/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/)        | [Go](./other/swordoffer/go/majorityElement/majorityElement.go)               | 简单 |
+| 40       | [ 最小的 k 个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/)                                                          | [Go](./other/swordoffer/go/getLeastNumbers/getLeastNumbers.go)               | 简单 |
