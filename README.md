@@ -60,3 +60,4 @@
 | 39       | [数组中出现次数超过一半的数字](https://leetcode.cn/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/)         | [Go](./other/swordoffer/go/majorityElement/majorityElement.go)               | 简单 |
 | 40       | [最小的 k 个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/)                                                           | [Go](./other/swordoffer/go/getLeastNumbers/getLeastNumbers.go)               | 简单 |
 | 41       | [数据流中的中位数](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/)                                          | [Go](./other/swordoffer/go/findMedian/findMedian.go)                         | 困难 |
+| 42       | [连续子数组的最大和](https://leetcode.cn/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/)                                           | [Go](./other/swordoffer/go/maxSubArray/maxSubArray.go)                       | 简单 |
