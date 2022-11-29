@@ -20,12 +20,12 @@ func partition(nums []int, left, right int) int {
 
 	for i := index; i <= right; i++ {
 		if nums[i] < nums[pivot] {
-			swap(nums,i, index)
+			swap(nums, i, index)
 			index++
 		}
 	}
 	swap(nums, pivot, index-1)
-	return index-1
+	return index - 1
 }
 
 func swap(nums []int, i, j int) {
