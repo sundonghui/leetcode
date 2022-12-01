@@ -63,3 +63,4 @@
 | 42       | [连续子数组的最大和](https://leetcode.cn/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/)                                           | [Go](./other/swordoffer/go/maxSubArray/maxSubArray.go)                       | 简单 |
 | 43       | [1 ～ n 整数中 1 出现的次数](https://leetcode.cn/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/)                            | [Go](./other/swordoffer/go/countDigitOne/countDigitOne.go)                   | 困难 |
 | 44       | [数字序列中某一位的数字](https://leetcode.cn/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/)                             | [Go](./other/swordoffer/go/findNthDigit/findNthDigit.go)                     | 中等 |
+| 45       | [把数字翻译成字符串](https://leetcode.cn/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)                                       | [Go](./other/swordoffer/go/translateNum/translateNum.go)                     | 中等 |
