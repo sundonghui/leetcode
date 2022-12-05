@@ -64,3 +64,4 @@
 | 43       | [1 ～ n 整数中 1 出现的次数](https://leetcode.cn/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/)                            | [Go](./other/swordoffer/go/countDigitOne/countDigitOne.go)                   | 困难 |
 | 44       | [数字序列中某一位的数字](https://leetcode.cn/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/)                             | [Go](./other/swordoffer/go/findNthDigit/findNthDigit.go)                     | 中等 |
 | 45       | [把数字翻译成字符串](https://leetcode.cn/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)                                       | [Go](./other/swordoffer/go/translateNum/translateNum.go)                     | 中等 |
+| 46       | [礼物的最大价值](https://leetcode.cn/problems/li-wu-de-zui-da-jie-zhi-lcof/)                                                      | [Go](./other/swordoffer/go/maxValue/maxValue.go)                             | 中等 |
