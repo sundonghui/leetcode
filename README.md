@@ -66,3 +66,5 @@
 | 46       | [把数字翻译成字符串](https://leetcode.cn/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)                                       | [Go](./other/swordoffer/go/translateNum/translateNum.go)                         | 中等 |
 | 47       | [礼物的最大价值](https://leetcode.cn/problems/li-wu-de-zui-da-jie-zhi-lcof/)                                                      | [Go](./other/swordoffer/go/maxValue/maxValue.go)                                 | 中等 |
 | 48       | [最长不含重复字符的子字符串](https://leetcode.cn/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)                | [Go](./other/swordoffer/go/lengthOfLongestSubstring/lengthOfLongestSubstring.go) | 中等 |
+| 49       | [丑数](https://leetcode.cn/problems/chou-shu-lcof/)                                                                               | [Go](./other/swordoffer/go/nthUglyNumber/nthUglyNumber.go)                       | 中等 |
+| 50       | [第一个只出现一次的字符](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)                                 | [Go](./other/swordoffer/go/firstUniqChar/firstUniqChar.go)                       | 简单 |
