@@ -70,3 +70,5 @@
 | 50       | [第一个只出现一次的字符](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)                                 | [Go](./other/swordoffer/go/firstUniqChar/firstUniqChar.go)                       | 简单 |
 | 51       | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)                                                    | [Go](./other/swordoffer/go/reversePairs/reversePairs.go)                         | 困难 |
 | 52       | [两个链表的第一个公共节点](https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)                  | [Go](./other/swordoffer/go/getIntersectionNode/getIntersectionNode.go)           | 简单 |
+| 53 - I   | [在排序数组中查找数字](https://leetcode.cn/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)                                | [Go](./other/swordoffer/go/search/search.go)                                     | 简单 |
+| 53 - II  | [0 ～ n-1 中缺失的数字](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof/)                                                     | [Go](./other/swordoffer/go/missingNumber/missingNumber.go)                       | 简单 |
