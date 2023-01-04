@@ -73,3 +73,4 @@
 | 53 - I   | [在排序数组中查找数字](https://leetcode.cn/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)                                | [Go](./other/swordoffer/go/search/search.go)                                     | 简单 |
 | 53 - II  | [0 ～ n-1 中缺失的数字](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof/)                                                     | [Go](./other/swordoffer/go/missingNumber/missingNumber.go)                       | 简单 |
 | 54       | [二叉搜索树的第 k 大节点](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)                               | [Go](./other/swordoffer/go/kthLargest/kthLargest.go)                             | 简单 |
+| 55 - I   | [ 二叉树的深度](https://leetcode.cn/problems/er-cha-shu-de-shen-du-lcof/)                                                         | [Go](./other/swordoffer/go/maxDepth/maxDepth.go)                                 | 简单 |
