@@ -77,3 +77,4 @@
 | 55 - II  | [ 平衡二叉树](https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/)                                                            | [Go](./other/swordoffer/go/isBalanced/isBalanced.go)                             | 简单 |
 | 56 - I   | [ 数组中数字出现的次数](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/)                                | [Go](./other/swordoffer/go/singleNumbers/singleNumbers.go)                       | 中等 |
 | 56 - II  | [ 数组中数字出现的次数 II](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/)                          | [Go](./other/swordoffer/go/singleNumber/singleNumbers2.go)                       | 中等 |
+| 57       | [ 和为 s 的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof/)                                               | [Go](./other/swordoffer/go/twoSum/twoSum.go)                                     | 简单 |
