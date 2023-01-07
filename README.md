@@ -78,3 +78,4 @@
 | 56 - I   | [ 数组中数字出现的次数](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/)                                | [Go](./other/swordoffer/go/singleNumbers/singleNumbers.go)                       | 中等 |
 | 56 - II  | [ 数组中数字出现的次数 II](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/)                          | [Go](./other/swordoffer/go/singleNumber/singleNumbers2.go)                       | 中等 |
 | 57       | [ 和为 s 的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof/)                                               | [Go](./other/swordoffer/go/twoSum/twoSum.go)                                     | 简单 |
+| 57 - II  | [ 和为 s 的连续正数序列](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)                                  | [Go](./other/swordoffer/go/findContinuousSequence/findContinuousSequence.go)     | 简单 |
