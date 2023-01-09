@@ -81,3 +81,4 @@
 | 57 - II  | [ 和为 s 的连续正数序列](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)                                  | [Go](./other/swordoffer/go/findContinuousSequence/findContinuousSequence.go)     | 简单 |
 | 58 - I   | [ 翻转单词顺序](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof/)                                                      | [Go](./other/swordoffer/go/reverseWords/reverseWords.go)                         | 简单 |
 | 58 - II  | [ 左旋转字符串](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)                                                    | [Go](./other/swordoffer/go/reverseLeftWords/reverseLeftWords.go)                 | 简单 |
+| 59 - I   | [ 滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)                                         | [Go](./other/swordoffer/go/maxSlidingWindow/maxSlidingWindow.go)                 | 困难 |
