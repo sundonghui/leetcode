@@ -1,0 +1,12 @@
+package dicesprobability
+
+import (
+	"testing"
+
+	"github.com/stretchr/testify/assert"
+)
+
+func TestDicesProbability(t *testing.T) {
+	expected := []float64{0.027777777777777776, 0.05555555555555555, 0.08333333333333333, 0.1111111111111111, 0.1388888888888889, 0.16666666666666669, 0.1388888888888889, 0.1111111111111111, 0.08333333333333333, 0.05555555555555555, 0.027777777777777776}
+	assert.Equal(t, expected, dicesProbability(2))
+}
