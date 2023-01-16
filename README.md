@@ -83,3 +83,5 @@
 | 58 - II  | [ 左旋转字符串](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)                                                    | [Go](./other/swordoffer/go/reverseLeftWords/reverseLeftWords.go)                 | 简单 |
 | 59 - I   | [ 滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)                                         | [Go](./other/swordoffer/go/maxSlidingWindow/maxSlidingWindow.go)                 | 困难 |
 | 60       | [ n 个骰子的点数 ](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof/)                                                     | [Go](./other/swordoffer/go/dicesProbability/dicesProbability.go)                 | 中等 |
+| 62       | [ 圆圈中最后剩下的数字 ](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)                          | [Go](./other/swordoffer/go/lastRemaining/lastRemaining.go)                       | 简单 |
+| 63       | [ 股票的最大利润 ](https://leetcode.cn/problems/gu-piao-de-zui-da-li-run-lcof/)                                                   | [Go](./other/swordoffer/go/maxProfit/maxProfit.go)                               | 中等 |
