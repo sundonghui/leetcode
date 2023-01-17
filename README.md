@@ -85,3 +85,4 @@
 | 60       | [ n 个骰子的点数 ](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof/)                                                     | [Go](./other/swordoffer/go/dicesProbability/dicesProbability.go)                 | 中等 |
 | 62       | [ 圆圈中最后剩下的数字 ](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)                          | [Go](./other/swordoffer/go/lastRemaining/lastRemaining.go)                       | 简单 |
 | 63       | [ 股票的最大利润 ](https://leetcode.cn/problems/gu-piao-de-zui-da-li-run-lcof/)                                                   | [Go](./other/swordoffer/go/maxProfit/maxProfit.go)                               | 中等 |
+| 64       | [ 求 1+2+…+n ](https://leetcode.cn/problems/qiu-12n-lcof/)                                                                        | [Go](./other/swordoffer/go/sumNums/sumNums.go)                                   | 中等 |
