@@ -86,3 +86,4 @@
 | 62       | [ 圆圈中最后剩下的数字 ](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)                          | [Go](./other/swordoffer/go/lastRemaining/lastRemaining.go)                       | 简单 |
 | 63       | [ 股票的最大利润 ](https://leetcode.cn/problems/gu-piao-de-zui-da-li-run-lcof/)                                                   | [Go](./other/swordoffer/go/maxProfit/maxProfit.go)                               | 中等 |
 | 64       | [ 求 1+2+…+n ](https://leetcode.cn/problems/qiu-12n-lcof/)                                                                        | [Go](./other/swordoffer/go/sumNums/sumNums.go)                                   | 中等 |
+| 65       | [ 不用加减乘除做加法 ](https://leetcode.cn/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/)                                  | [Go](./other/swordoffer/go/add/add.go)                                   | 简单 |
