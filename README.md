@@ -89,3 +89,4 @@
 | 65       | [ 不用加减乘除做加法 ](https://leetcode.cn/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/)                                  | [Go](./other/swordoffer/go/add/add.go)                                             | 简单 |
 | 66       | [ 构建乘积数组 ](https://leetcode.cn/problems/gou-jian-cheng-ji-shu-zu-lcof/)                                                     | [Go](./other/swordoffer/go/constructArr/constructArr.go)                           | 中等 |
 | 68 - I   | [ 二叉搜索树的最近公共祖先 ](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/)                  | [Python3](./other/swordoffer/python3/lowestCommonAncestor/lowestCommonAncestor.py)、[Go](./other/swordoffer/go/lowestCommonAncestor/lowestCommonAncestor.go) | 简单 |
+| 68 - II  | [ 二叉树的最近公共祖先 ](https://leetcode.cn/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/)                  | [Go](./other/swordoffer/go/lowestCommonAncestor/lowestCommonAncestor.go) | 简单 |
