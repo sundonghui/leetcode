@@ -91,3 +91,4 @@
 | 68 - I   | [ 二叉搜索树的最近公共祖先 ](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/)                  | [Python3](./other/swordoffer/python3/lowestCommonAncestor/lowestCommonAncestor.py)、[Go](./other/swordoffer/go/lowestCommonAncestor/lowestCommonAncestor.go) | 简单 |
 | 68 - II  | [ 二叉树的最近公共祖先 ](https://leetcode.cn/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/)                  | [Go](./other/swordoffer/go/lowestCommonAncestor/lowestCommonAncestor.go) | 简单 |
 | 面试题13 | [ 机器人的运动范围 ](https://leetcode.cn/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)                  | [Go](./other/swordoffer/go/movingCount/movingCount.go) | 中等 |
+| 面试题45 | [  把数组排成最小的数 ](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)                  | [Go](./other/swordoffer/go/minNumber/minNumber.go) | 中等 |
