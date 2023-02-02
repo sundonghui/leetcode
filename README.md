@@ -2,10 +2,11 @@
 
 ## 算法
 
-| #   | 题目                                                      | 题解                                                 | 难度 |
-| --- | --------------------------------------------------------- | ---------------------------------------------------- | ---- |
-| 1   | [两数之和](https://leetcode.cn/problems/two-sum/)         | [Go](./algorithms/go/twoSum/twoSum.go)               | 简单 |
-| 2   | [两数相加](https://leetcode.cn/problems/add-two-numbers/) | [Go](./algorithms/go/addTwoNumbers/addTwoNumbers.go) | 中等 |
+| #   | 题目                                                                                                 | 题解                                                                       | 难度 |
+| --- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ---- |
+| 1   | [两数之和](https://leetcode.cn/problems/two-sum/)                                                    | [Go](./algorithms/go/twoSum/twoSum.go)                                     | 简单 |
+| 2   | [两数相加](https://leetcode.cn/problems/add-two-numbers/)                                            | [Go](./algorithms/go/addTwoNumbers/addTwoNumbers.go)                       | 中等 |
+| 3   | [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/) | [Go](./algorithms/go/lengthOfLongestSubstring/lengthOfLongestSubstring.go) | 中等 |
 
 ## 数据库
 
