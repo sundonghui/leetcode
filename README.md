@@ -7,6 +7,7 @@
 | 1   | [两数之和](https://leetcode.cn/problems/two-sum/)                                                    | [Go](./algorithms/go/twoSum/twoSum.go)                                     | 简单 |
 | 2   | [两数相加](https://leetcode.cn/problems/add-two-numbers/)                                            | [Go](./algorithms/go/addTwoNumbers/addTwoNumbers.go)                       | 中等 |
 | 3   | [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/) | [Go](./algorithms/go/lengthOfLongestSubstring/lengthOfLongestSubstring.go) | 中等 |
+| 4   | [寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/)                | [Go](./algorithms/go/findMedianSortedArrays/findMedianSortedArrays.go)     | 困难 |
 
 ## 数据库
 
