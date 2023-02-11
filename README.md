@@ -10,6 +10,7 @@
 | 4   | [寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/)                | [Go](./algorithms/go/findMedianSortedArrays/findMedianSortedArrays.go)     | 困难 |
 | 5   | [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/)                          | [Go](./algorithms/go/longestPalindrome/longestPalindrome.go)               | 中等 |
 | 6   | [ N 字形变换 ](https://leetcode.cn/problems/zigzag-conversion/)                                      | [Go](./algorithms/go/convert/convert.go)                                   | 中等 |
+| 7   | [ 整数反转 ](https://leetcode.cn/problems/reverse-integer/)                                          | [Go](./algorithms/go/reverse/reverse.go)                                   | 中等 |
 
 ## 数据库
 
