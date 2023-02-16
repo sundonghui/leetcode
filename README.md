@@ -11,6 +11,7 @@
 | 5   | [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/)                          | [Go](./algorithms/go/longestPalindrome/longestPalindrome.go)               | 中等 |
 | 6   | [ N 字形变换 ](https://leetcode.cn/problems/zigzag-conversion/)                                      | [Go](./algorithms/go/convert/convert.go)                                   | 中等 |
 | 7   | [ 整数反转 ](https://leetcode.cn/problems/reverse-integer/)                                          | [Go](./algorithms/go/reverse/reverse.go)                                   | 中等 |
+| 8   | [ 字符串转换整数 (atoi) ](https://leetcode.cn/problems/string-to-integer-atoi/)                      | [Go](./algorithms/go/myAtoi/myAtoi.go)                                     | 中等 |
 
 ## 数据库
 
