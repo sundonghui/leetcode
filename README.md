@@ -14,6 +14,7 @@
 | 8   | [ 字符串转换整数 (atoi) ](https://leetcode.cn/problems/string-to-integer-atoi/)                      | [Go](./algorithms/go/myAtoi/myAtoi.go)                                     | 中等 |
 | 9   | [ 回文数 ](https://leetcode.cn/problems/palindrome-number/)                                          | [Go](./algorithms/go/isPalindrome/isPalindrome.go)                         | 简单 |
 | 10  | [ 正则表达式匹配 ](https://leetcode.cn/problems/regular-expression-matching/)                        | [Go](./algorithms/go/isMatch/isMatch.go)                                   | 困难 |
+| 11  | [ 盛最多水的容器 ](https://leetcode.cn/problems/container-with-most-water/)                          | [Go](./algorithms/go/maxArea/maxArea.go)                                   | 中等 |
 
 ## 数据库
 
