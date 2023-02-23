@@ -1,5 +1,19 @@
 # 力扣
 
+## 规范
+
+#### 代码需格式化提交
+
+```shell
+gofmt -s -w .
+```
+
+#### 执行所有测试用例
+
+```shell
+go test ./...
+```
+
 ## 算法
 
 | #   | 题目                                                                                                 | 题解                                                                       | 难度 |
@@ -17,6 +31,7 @@
 | 11  | [ 盛最多水的容器 ](https://leetcode.cn/problems/container-with-most-water/)                          | [Go](./algorithms/go/maxArea/maxArea.go)                                   | 中等 |
 | 12  | [ 整数转罗马数字 ](https://leetcode.cn/problems/integer-to-roman/)                                   | [Go](./algorithms/go/intToRoman/intToRoman.go)                             | 中等 |
 | 13  | [ 罗马数字转整数 ](https://leetcode.cn/problems/roman-to-integer/)                                   | [Go](./algorithms/go/romanToInt/romanToInt.go)                             | 中等 |
+
 ## 数据库
 
 ## Shell
