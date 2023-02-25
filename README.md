@@ -30,7 +30,8 @@ go test ./...
 | 10  | [ 正则表达式匹配 ](https://leetcode.cn/problems/regular-expression-matching/)                        | [Go](./algorithms/go/isMatch/isMatch.go)                                   | 困难 |
 | 11  | [ 盛最多水的容器 ](https://leetcode.cn/problems/container-with-most-water/)                          | [Go](./algorithms/go/maxArea/maxArea.go)                                   | 中等 |
 | 12  | [ 整数转罗马数字 ](https://leetcode.cn/problems/integer-to-roman/)                                   | [Go](./algorithms/go/intToRoman/intToRoman.go)                             | 中等 |
-| 13  | [ 罗马数字转整数 ](https://leetcode.cn/problems/roman-to-integer/)                                   | [Go](./algorithms/go/romanToInt/romanToInt.go)                             | 中等 |
+| 13  | [ 罗马数字转整数 ](https://leetcode.cn/problems/roman-to-integer/)                                   | [Go](./algorithms/go/romanToInt/romanToInt.go)                             | 简单 |
+| 14  | [ 最长公共前缀 ](https://leetcode.cn/problems/longest-common-prefix/)                                | [Go](./algorithms/go/longestCommonPrefix/longestCommonPrefix.go)           | 简单 |
 
 ## 数据库
 
