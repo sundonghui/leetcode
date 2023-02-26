@@ -32,6 +32,7 @@ go test ./...
 | 12  | [ 整数转罗马数字 ](https://leetcode.cn/problems/integer-to-roman/)                                   | [Go](./algorithms/go/intToRoman/intToRoman.go)                             | 中等 |
 | 13  | [ 罗马数字转整数 ](https://leetcode.cn/problems/roman-to-integer/)                                   | [Go](./algorithms/go/romanToInt/romanToInt.go)                             | 简单 |
 | 14  | [ 最长公共前缀 ](https://leetcode.cn/problems/longest-common-prefix/)                                | [Go](./algorithms/go/longestCommonPrefix/longestCommonPrefix.go)           | 简单 |
+| 15  | [ 三数之和 ](https://leetcode.cn/problems/3sum/)                                                     | [Go](./algorithms/go/threeSum/threeSum.go)                                 | 中等 |
 
 ## 数据库
 
