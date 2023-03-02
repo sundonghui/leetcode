@@ -34,6 +34,7 @@ go test ./...
 | 14  | [ 最长公共前缀 ](https://leetcode.cn/problems/longest-common-prefix/)                                | [Go](./algorithms/go/longestCommonPrefix/longestCommonPrefix.go)           | 简单 |
 | 15  | [ 三数之和 ](https://leetcode.cn/problems/3sum/)                                                     | [Go](./algorithms/go/threeSum/threeSum.go)                                 | 中等 |
 | 16  | [ 最接近的三数之和 ](https://leetcode.cn/problems/3sum-closest/)                                     | [Go](./algorithms/go/threeSumClosest/threeSumClosest.go)                   | 中等 |
+| 17  | [ 电话号码的字母组合 ](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/)          | [Go](./algorithms/go/letterCombinations/letterCombinations.go)             | 中等 |
 
 ## 数据库
 
