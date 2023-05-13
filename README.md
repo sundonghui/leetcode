@@ -42,6 +42,7 @@ go test ./...
 | 22  | [ 括号生成 ](https://leetcode.cn/problems/generate-parentheses/)                                     | [Go](./algorithms/go/generateParenthesis/generateParenthesis.go)           | 中等 |
 | 23  | [ 合并 K 个升序链表 ](https://leetcode.cn/problems/merge-k-sorted-lists/)                            | [Go](./algorithms/go/mergeKLists/mergeKLists.go)                           | 困难 |
 | 24  | [ 两两交换链表中的节点 ](https://leetcode.cn/problems/swap-nodes-in-pairs/)                          | [Go](./algorithms/go/swapPairs/swapPairs.go)                               | 中等 |
+| 25  | [ K 个一组翻转链表 ](https://leetcode.cn/problems/reverse-nodes-in-k-group/)                         | [Go](./algorithms/go/reverseKGroup/reverseKGroup.go)                       | 困难 |
 
 ## 数据库
 
