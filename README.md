@@ -39,6 +39,7 @@ go test ./...
 | 19  | [ 删除链表的倒数第 N 个结点 ](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)        | [Go](./algorithms/go/removeNthFromEnd/removeNthFromEnd.go)                 | 中等 |
 | 20  | [ 有效的括号](https://leetcode.cn/problems/valid-parentheses/)                                       | [Go](./algorithms/go/isValid/isValid.go)                                   | 简单 |
 | 21  | [ 合并两个有序链表 ](https://leetcode.cn/problems/merge-two-sorted-lists/)                           | [Go](./algorithms/go/mergeTwoLists/mergeTwoLists.go)                       | 简单 |
+| 22  | [ 括号生成 ](https://leetcode.cn/problems/generate-parentheses/)                                     | [Go](./algorithms/go/generateParenthesis/generateParenthesis.go)           | 中等 |
 
 ## 数据库
 
