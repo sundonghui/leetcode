@@ -5,11 +5,11 @@ func removeDuplicates(nums []int) int {
 	if len(nums) < 2 {
 		return len(nums)
 	}
-	for j < len(nums){
+	for j < len(nums) {
 		pre := nums[i]
 		next := nums[j]
 		if pre == next {
-			nums = append(nums[0:i],nums[i+1:]... )
+			nums = append(nums[0:i], nums[i+1:]...)
 			continue
 		}
 		i++
