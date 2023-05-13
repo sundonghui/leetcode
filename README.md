@@ -40,6 +40,7 @@ go test ./...
 | 20  | [ 有效的括号](https://leetcode.cn/problems/valid-parentheses/)                                       | [Go](./algorithms/go/isValid/isValid.go)                                   | 简单 |
 | 21  | [ 合并两个有序链表 ](https://leetcode.cn/problems/merge-two-sorted-lists/)                           | [Go](./algorithms/go/mergeTwoLists/mergeTwoLists.go)                       | 简单 |
 | 22  | [ 括号生成 ](https://leetcode.cn/problems/generate-parentheses/)                                     | [Go](./algorithms/go/generateParenthesis/generateParenthesis.go)           | 中等 |
+| 23  | [ 合并 K 个升序链表 ](https://leetcode.cn/problems/merge-k-sorted-lists/)                            | [Go](./algorithms/go/mergeKLists/mergeKLists.go)                           | 困难 |
 
 ## 数据库
 
