@@ -16,35 +16,36 @@ go test ./...
 
 ## 算法
 
-| #   | 题目                                                                                                 | 题解                                                                       | 难度 |
-| --- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ---- |
-| 1   | [两数之和](https://leetcode.cn/problems/two-sum/)                                                    | [Go](./algorithms/go/twoSum/twoSum.go)                                     | 简单 |
-| 2   | [两数相加](https://leetcode.cn/problems/add-two-numbers/)                                            | [Go](./algorithms/go/addTwoNumbers/addTwoNumbers.go)                       | 中等 |
-| 3   | [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/) | [Go](./algorithms/go/lengthOfLongestSubstring/lengthOfLongestSubstring.go) | 中等 |
-| 4   | [寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/)                | [Go](./algorithms/go/findMedianSortedArrays/findMedianSortedArrays.go)     | 困难 |
-| 5   | [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/)                          | [Go](./algorithms/go/longestPalindrome/longestPalindrome.go)               | 中等 |
-| 6   | [ N 字形变换 ](https://leetcode.cn/problems/zigzag-conversion/)                                      | [Go](./algorithms/go/convert/convert.go)                                   | 中等 |
-| 7   | [ 整数反转 ](https://leetcode.cn/problems/reverse-integer/)                                          | [Go](./algorithms/go/reverse/reverse.go)                                   | 中等 |
-| 8   | [ 字符串转换整数 (atoi) ](https://leetcode.cn/problems/string-to-integer-atoi/)                      | [Go](./algorithms/go/myAtoi/myAtoi.go)                                     | 中等 |
-| 9   | [ 回文数 ](https://leetcode.cn/problems/palindrome-number/)                                          | [Go](./algorithms/go/isPalindrome/isPalindrome.go)                         | 简单 |
-| 10  | [ 正则表达式匹配 ](https://leetcode.cn/problems/regular-expression-matching/)                        | [Go](./algorithms/go/isMatch/isMatch.go)                                   | 困难 |
-| 11  | [ 盛最多水的容器 ](https://leetcode.cn/problems/container-with-most-water/)                          | [Go](./algorithms/go/maxArea/maxArea.go)                                   | 中等 |
-| 12  | [ 整数转罗马数字 ](https://leetcode.cn/problems/integer-to-roman/)                                   | [Go](./algorithms/go/intToRoman/intToRoman.go)                             | 中等 |
-| 13  | [ 罗马数字转整数 ](https://leetcode.cn/problems/roman-to-integer/)                                   | [Go](./algorithms/go/romanToInt/romanToInt.go)                             | 简单 |
-| 14  | [ 最长公共前缀 ](https://leetcode.cn/problems/longest-common-prefix/)                                | [Go](./algorithms/go/longestCommonPrefix/longestCommonPrefix.go)           | 简单 |
-| 15  | [ 三数之和 ](https://leetcode.cn/problems/3sum/)                                                     | [Go](./algorithms/go/threeSum/threeSum.go)                                 | 中等 |
-| 16  | [ 最接近的三数之和 ](https://leetcode.cn/problems/3sum-closest/)                                     | [Go](./algorithms/go/threeSumClosest/threeSumClosest.go)                   | 中等 |
-| 17  | [ 电话号码的字母组合 ](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/)          | [Go](./algorithms/go/letterCombinations/letterCombinations.go)             | 中等 |
-| 18  | [ 四数之和 ](https://leetcode.cn/problems/4sum/)                                                     | [Go](./algorithms/go/fourSum/fourSum.go)                                   | 中等 |
-| 19  | [ 删除链表的倒数第 N 个结点 ](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)        | [Go](./algorithms/go/removeNthFromEnd/removeNthFromEnd.go)                 | 中等 |
-| 20  | [ 有效的括号](https://leetcode.cn/problems/valid-parentheses/)                                       | [Go](./algorithms/go/isValid/isValid.go)                                   | 简单 |
-| 21  | [ 合并两个有序链表 ](https://leetcode.cn/problems/merge-two-sorted-lists/)                           | [Go](./algorithms/go/mergeTwoLists/mergeTwoLists.go)                       | 简单 |
-| 22  | [ 括号生成 ](https://leetcode.cn/problems/generate-parentheses/)                                     | [Go](./algorithms/go/generateParenthesis/generateParenthesis.go)           | 中等 |
-| 23  | [ 合并 K 个升序链表 ](https://leetcode.cn/problems/merge-k-sorted-lists/)                            | [Go](./algorithms/go/mergeKLists/mergeKLists.go)                           | 困难 |
-| 24  | [ 两两交换链表中的节点 ](https://leetcode.cn/problems/swap-nodes-in-pairs/)                          | [Go](./algorithms/go/swapPairs/swapPairs.go)                               | 中等 |
-| 25  | [ K 个一组翻转链表 ](https://leetcode.cn/problems/reverse-nodes-in-k-group/)                         | [Go](./algorithms/go/reverseKGroup/reverseKGroup.go)                       | 困难 |
-| 26  | [ 删除有序数组中的重复项 ](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)        | [Go](./algorithms/go/removeDuplicates/removeDuplicates.go)                 | 简单 |
-| 27  | [ 移除元素 ](https://leetcode.cn/problems/remove-element/)                                           | [Go](./algorithms/go/removeElement/removeElement.go)                       | 简单 |
+| #   | 题目                                                                                                                 | 题解                                                                       | 难度 |
+| --- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ---- |
+| 1   | [两数之和](https://leetcode.cn/problems/two-sum/)                                                                    | [Go](./algorithms/go/twoSum/twoSum.go)                                     | 简单 |
+| 2   | [两数相加](https://leetcode.cn/problems/add-two-numbers/)                                                            | [Go](./algorithms/go/addTwoNumbers/addTwoNumbers.go)                       | 中等 |
+| 3   | [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)                 | [Go](./algorithms/go/lengthOfLongestSubstring/lengthOfLongestSubstring.go) | 中等 |
+| 4   | [寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/)                                | [Go](./algorithms/go/findMedianSortedArrays/findMedianSortedArrays.go)     | 困难 |
+| 5   | [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/)                                          | [Go](./algorithms/go/longestPalindrome/longestPalindrome.go)               | 中等 |
+| 6   | [ N 字形变换 ](https://leetcode.cn/problems/zigzag-conversion/)                                                      | [Go](./algorithms/go/convert/convert.go)                                   | 中等 |
+| 7   | [ 整数反转 ](https://leetcode.cn/problems/reverse-integer/)                                                          | [Go](./algorithms/go/reverse/reverse.go)                                   | 中等 |
+| 8   | [ 字符串转换整数 (atoi) ](https://leetcode.cn/problems/string-to-integer-atoi/)                                      | [Go](./algorithms/go/myAtoi/myAtoi.go)                                     | 中等 |
+| 9   | [ 回文数 ](https://leetcode.cn/problems/palindrome-number/)                                                          | [Go](./algorithms/go/isPalindrome/isPalindrome.go)                         | 简单 |
+| 10  | [ 正则表达式匹配 ](https://leetcode.cn/problems/regular-expression-matching/)                                        | [Go](./algorithms/go/isMatch/isMatch.go)                                   | 困难 |
+| 11  | [ 盛最多水的容器 ](https://leetcode.cn/problems/container-with-most-water/)                                          | [Go](./algorithms/go/maxArea/maxArea.go)                                   | 中等 |
+| 12  | [ 整数转罗马数字 ](https://leetcode.cn/problems/integer-to-roman/)                                                   | [Go](./algorithms/go/intToRoman/intToRoman.go)                             | 中等 |
+| 13  | [ 罗马数字转整数 ](https://leetcode.cn/problems/roman-to-integer/)                                                   | [Go](./algorithms/go/romanToInt/romanToInt.go)                             | 简单 |
+| 14  | [ 最长公共前缀 ](https://leetcode.cn/problems/longest-common-prefix/)                                                | [Go](./algorithms/go/longestCommonPrefix/longestCommonPrefix.go)           | 简单 |
+| 15  | [ 三数之和 ](https://leetcode.cn/problems/3sum/)                                                                     | [Go](./algorithms/go/threeSum/threeSum.go)                                 | 中等 |
+| 16  | [ 最接近的三数之和 ](https://leetcode.cn/problems/3sum-closest/)                                                     | [Go](./algorithms/go/threeSumClosest/threeSumClosest.go)                   | 中等 |
+| 17  | [ 电话号码的字母组合 ](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/)                          | [Go](./algorithms/go/letterCombinations/letterCombinations.go)             | 中等 |
+| 18  | [ 四数之和 ](https://leetcode.cn/problems/4sum/)                                                                     | [Go](./algorithms/go/fourSum/fourSum.go)                                   | 中等 |
+| 19  | [ 删除链表的倒数第 N 个结点 ](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)                        | [Go](./algorithms/go/removeNthFromEnd/removeNthFromEnd.go)                 | 中等 |
+| 20  | [ 有效的括号](https://leetcode.cn/problems/valid-parentheses/)                                                       | [Go](./algorithms/go/isValid/isValid.go)                                   | 简单 |
+| 21  | [ 合并两个有序链表 ](https://leetcode.cn/problems/merge-two-sorted-lists/)                                           | [Go](./algorithms/go/mergeTwoLists/mergeTwoLists.go)                       | 简单 |
+| 22  | [ 括号生成 ](https://leetcode.cn/problems/generate-parentheses/)                                                     | [Go](./algorithms/go/generateParenthesis/generateParenthesis.go)           | 中等 |
+| 23  | [ 合并 K 个升序链表 ](https://leetcode.cn/problems/merge-k-sorted-lists/)                                            | [Go](./algorithms/go/mergeKLists/mergeKLists.go)                           | 困难 |
+| 24  | [ 两两交换链表中的节点 ](https://leetcode.cn/problems/swap-nodes-in-pairs/)                                          | [Go](./algorithms/go/swapPairs/swapPairs.go)                               | 中等 |
+| 25  | [ K 个一组翻转链表 ](https://leetcode.cn/problems/reverse-nodes-in-k-group/)                                         | [Go](./algorithms/go/reverseKGroup/reverseKGroup.go)                       | 困难 |
+| 26  | [ 删除有序数组中的重复项 ](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)                        | [Go](./algorithms/go/removeDuplicates/removeDuplicates.go)                 | 简单 |
+| 27  | [ 移除元素 ](https://leetcode.cn/problems/remove-element/)                                                           | [Go](./algorithms/go/removeElement/removeElement.go)                       | 简单 |
+| 28  | [ 找出字符串中第一个匹配项的下标 ](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Go](./algorithms/go/strStr/strStr.go)                                     | 中等 |
 
 ## 数据库
 
