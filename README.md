@@ -46,6 +46,7 @@ go test ./...
 | 26  | [ 删除有序数组中的重复项 ](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)                        | [Go](./algorithms/go/removeDuplicates/removeDuplicates.go)                 | 简单 |
 | 27  | [ 移除元素 ](https://leetcode.cn/problems/remove-element/)                                                           | [Go](./algorithms/go/removeElement/removeElement.go)                       | 简单 |
 | 28  | [ 找出字符串中第一个匹配项的下标 ](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Go](./algorithms/go/strStr/strStr.go)                                     | 中等 |
+| 29  | [ 两数相除 ](https://leetcode.cn/problems/divide-two-integers/)                                                      | [Go](./algorithms/go/divide/divide.go)                                     | 中等 |
 
 ## 数据库
 
