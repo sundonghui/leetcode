@@ -48,6 +48,7 @@ go test ./...
 | 28  | [ 找出字符串中第一个匹配项的下标 ](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Go](./algorithms/go/strStr/strStr.go)                                     | 中等 |
 | 29  | [ 两数相除 ](https://leetcode.cn/problems/divide-two-integers/)                                                      | [Go](./algorithms/go/divide/divide.go)                                     | 中等 |
 | 30  | [ 串联所有单词的子串 ](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/)                      | [Go](./algorithms/go/findSubstring/findSubstring.go)                       | 中等 |
+| 31  | [ 下一个排列 ](https://leetcode.cn/problems/next-permutation/)                                                       | [Go](./algorithms/go/nextPermutation/nextPermutation.go)                   | 中等 |
 
 ## 数据库
 
