@@ -9,18 +9,18 @@ func countFairPairs(nums []int, lower int, upper int) (ans int64) {
 	sort.Ints(nums)
 	for j, x := range nums {
 		// sort.SearchInts 返回元素在切片中的位置，如果元素不存在，返回保持有序性不变，元素插入切片的位置
-		r := sort.SearchInts(nums[:j], upper-x+1) 
+		r := sort.SearchInts(nums[:j], upper-x+1)
 		l := sort.SearchInts(nums[:j], lower-x)
 		ans += int64(r - l)
 	}
-	return 
+	return
 }
 
 // 超出时间限制
 func countFairPairs1(nums []int, lower int, upper int) int64 {
 	cnt := 0
 	for i, v := range nums {
-		for j := i+1; j <= len(nums)-1; j++ {
+		for j := i + 1; j <= len(nums)-1; j++ {
 			tmp := v + nums[j]
 			if lower <= tmp && tmp <= upper {
 				cnt++

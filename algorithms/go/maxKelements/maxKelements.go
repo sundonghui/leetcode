@@ -38,30 +38,5 @@ func maxKelements(nums []int, k int) (ans int64) {
 type hp struct{ sort.IntSlice }
 
 func (h *hp) Less(i, j int) bool { return h.IntSlice[i] > h.IntSlice[j] } // 最大堆
-func (h *hp) Push(any)             {}
-func (h *hp) Pop() (_ any)         { return }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+func (h *hp) Push(any)           {}
+func (h *hp) Pop() (_ any)       { return }
