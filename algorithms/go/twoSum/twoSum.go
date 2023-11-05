@@ -1,6 +1,6 @@
 package twosum
 
-func twoSum(nums []int, target int) []int {
+func TwoSum(nums []int, target int) []int {
 	m := make(map[int]int, len(nums))
 	for index, v := range nums {
 		m[target-v] = index
@@ -14,4 +14,22 @@ func twoSum(nums []int, target int) []int {
 		}
 	}
 	return nil
+}
+
+func twoSum(numbers []int, target int) []int {
+	for i := 0; i <= len(numbers)-1; i++ {
+		left, right := i+1, len(numbers)-1
+		for left <= right {
+			mid := left + (right-left)/2
+			if numbers[i]+numbers[mid] == target {
+				return []int{i + 1, mid + 1}
+			}
+			if numbers[mid] > target-numbers[i] {
+				right = mid - 1
+			} else {
+				left = mid + 1
+			}
+		}
+	}
+	return []int{0, 0}
 }

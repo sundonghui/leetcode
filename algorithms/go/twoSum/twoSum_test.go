@@ -10,6 +10,6 @@ func TestTwoSum(t *testing.T) {
 	nums := []int{
 		2, 7, 11, 15,
 	}
-	expected := []int{1, 0}
+	expected := []int{1, 2}
 	assert.Equal(t, expected, twoSum(nums, 9))
 }
