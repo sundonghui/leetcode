@@ -5,7 +5,7 @@ func maxIncreasingCells(mat [][]int) int {
 		x int
 		y int
 	}
-
+	return 0
 }
 
 func max(a, b int) int {
