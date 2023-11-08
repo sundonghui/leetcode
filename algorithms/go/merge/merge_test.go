@@ -25,3 +25,22 @@ func Test_Merge2(t *testing.T) {
 	expected := []int{1, 2, 3, 4, 5, 6}
 	assert.Equal(t, expected, nums1)
 }
+
+func Test_Merge2_1(t *testing.T) {
+	intervals := [][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}
+	expected := [][]int{{1, 6}, {8, 10}, {15, 18}}
+	assert.Equal(t, expected, merge2(intervals))
+}
+
+func Test_Merge2_2(t *testing.T) {
+	intervals := [][]int{{0, 3}, {2, 6}, {8, 10}, {15, 18}}
+	expected := [][]int{{0, 6}, {8, 10}, {15, 18}}
+	assert.Equal(t, expected, mergeSort(intervals))
+}
+
+// [[1,4],[5,6]]
+func Test_Merge2_3(t *testing.T) {
+	intervals := [][]int{{1, 4}, {5, 6}, {0, 0}}
+	expected := [][]int{{0, 0}, {1, 4}, {5, 6}}
+	assert.Equal(t, expected, mergeSort(intervals))
+}
