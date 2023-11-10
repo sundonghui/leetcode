@@ -1,0 +1,22 @@
+package rotate
+
+import (
+	"testing"
+
+	"github.com/stretchr/testify/assert"
+)
+
+func Test_rotate1(t *testing.T) {
+	matrix := [][]int{
+		{1, 2, 3},
+		{4, 5, 6},
+		{7, 8, 9},
+	}
+	expected := [][]int{
+		{7, 4, 1},
+		{8, 5, 2},
+		{9, 6, 3},
+	}
+	rotate(matrix)
+	assert.Equal(t, expected, matrix)
+}
