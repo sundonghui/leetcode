@@ -30,3 +30,18 @@ func isEqual(strs []string, i int) bool {
 	}
 	return true
 }
+
+func longestCommonPrefix_(strs []string) string {
+	if len(strs) <= 0 {
+		return ""
+	}
+	base := strs[0]
+	for i := range base {
+		for _, str := range strs[1:] {
+			if i >= len(str) || str[i] != base[i] {
+				return base[:i]
+			}
+		}
+	}
+	return base
+}
