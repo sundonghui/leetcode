@@ -13,6 +13,7 @@ func preorderTraversal(root *TreeNode) []int {
 		if tn == nil {
 			return
 		}
+		// 中->左->右
 		vals = append(vals, tn.Val)
 		preorder(tn.Left)
 		preorder(tn.Right)

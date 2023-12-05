@@ -13,6 +13,7 @@ func postorderTraversal(root *TreeNode) []int {
 		if tn == nil {
 			return
 		}
+		// 左->右->中
 		postorder(tn.Left)
 		postorder(tn.Right)
 		res = append(res, tn.Val)
