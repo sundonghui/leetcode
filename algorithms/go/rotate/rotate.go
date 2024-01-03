@@ -13,3 +13,11 @@ func rotate(matrix [][]int) {
 		}
 	}
 }
+
+func Rotate(nums []int, k int) {
+	list := make([]int, len(nums))
+	for i, v := range nums {
+		list[(i+k)%len(list)] = v
+	}
+	copy(nums, list)
+}
