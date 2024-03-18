@@ -33,3 +33,21 @@ func twoSum(numbers []int, target int) []int {
 	}
 	return []int{0, 0}
 }
+
+func twoSumTwoPointer(numbers []int, target int) []int {
+	for i := 0; i < len(numbers); i++ {
+		left, right := i+1, len(numbers)-1
+		for left <= right {
+			mid := left + (right-left)/2
+			if numbers[i]+numbers[mid] == target {
+				return []int{i + 1, mid + 1}
+			}
+			if numbers[mid]+numbers[i] > target {
+				right = mid - 1
+			} else {
+				left = mid + 1
+			}
+		}
+	}
+	return []int{}
+}

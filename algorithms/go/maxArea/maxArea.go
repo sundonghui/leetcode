@@ -19,3 +19,33 @@ func maxArea(height []int) int {
 	}
 	return max
 }
+
+func maxArea1(height []int) int {
+	res := 0
+	l := 0
+	r := len(height) - 1
+	for l < r {
+		temp := min(height[l], height[r])
+		res = max(res, temp*(r-l))
+		if height[l] < height[r] {
+			l++
+		} else {
+			r--
+		}
+	}
+	return res
+}
+
+func min(x, y int) int {
+	if x > y {
+		return y
+	}
+	return x
+}
+
+func max(x, y int) int {
+	if x > y {
+		return x
+	}
+	return y
+}
