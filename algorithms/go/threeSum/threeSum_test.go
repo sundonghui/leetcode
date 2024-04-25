@@ -16,5 +16,5 @@ func TestThreeSum(t *testing.T) {
 			-1, 0, 1,
 		},
 	}
-	assert.Equal(t, expected, threeSum(nums))
+	assert.Equal(t, expected, threeSum_self(nums))
 }
