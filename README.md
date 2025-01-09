@@ -52,6 +52,7 @@ go test ./...
 | 32  | [ 最长有效括号 ](https://leetcode.cn/problems/longest-valid-parentheses/)                                            | [Go](./algorithms/go/longestValidParentheses/longestValidParentheses.go)   | 困难 |
 | 49  | [ 字母异位词分组 ](https://leetcode.cn/problems/group-anagrams/description/?envType=study-plan-v2&envId=top-interview-150)                                            | [Go](./algorithms/go/groupAnagrams/groupAnagrams.go)   | 中等 |
 | 136 | [ 只出现一次的数字 ](https://leetcode.cn/problems/single-number/)                                                    | [Go](./algorithms/go/singleNumber/singleNumber.go)                         | 简单 |
+| 202 | [ 快乐数 ](https://leetcode.cn/problems/happy-number/?envType=study-plan-v2&envId=top-interview-150)                                                    | [Go](./algorithms/go/isHappy/isHappy.go)                         | 简单 |
 | 242 | [ 有效的字母异位词 ](https://leetcode.cn/problems/valid-anagram/description/?envType=study-plan-v2&envId=top-interview-150)                                                    | [Go](./algorithms/go/isAnagram/isAnagram.go)                         | 简单 |
 | 290 | [ 单词规律 ](https://leetcode.cn/problems/word-pattern/description/?envType=study-plan-v2&envId=top-interview-150)                                                    | [Go](./algorithms/go/wordPattern/wordPattern.go)                         | 简单 |
 
