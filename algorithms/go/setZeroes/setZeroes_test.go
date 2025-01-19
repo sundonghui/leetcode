@@ -17,6 +17,6 @@ func Test_setZeroes(t *testing.T) {
 		{0, 0, 0},
 		{1, 0, 1},
 	}
-	setZeroes1(matrix)
+	setZeroes(matrix)
 	assert.Equal(t, expected, matrix)
 }
