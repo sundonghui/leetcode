@@ -5,42 +5,36 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
-	var list []int
-	for list1 != nil && list2 != nil {
-		if list1.Val > list2.Val {
-			list = append(list, list2.Val)
+func mergeTwoLists(list1 *ListNode, list2 *ListNode) (head *ListNode) {
+	var tail *ListNode
+	for list1 != nil || list2 != nil {
+		val, whichNext := getVal(list1, list2)
+		if whichNext == 1 {
+			list1 = list1.Next
+		}
+		if whichNext == 2 {
 			list2 = list2.Next
+		}
+		if head == nil {
+			head = &ListNode{Val: val}
+			tail = head
 		} else {
-			list = append(list, list1.Val)
-			list1 = list1.Next
+			tail.Next = &ListNode{Val: val}
+			tail = tail.Next
 		}
 	}
-	if list1 == nil {
-		for list2 != nil {
-			list = append(list, list2.Val)
-			list2 = list2.Next
-		}
-	}
-	if list2 == nil {
-		for list1 != nil {
-			list = append(list, list1.Val)
-			list1 = list1.Next
-		}
-	}
-
-	return arrayToList(list)
+	return
 }
 
-func arrayToList(array []int) *ListNode {
-	if len(array) < 1 {
-		return nil
+func getVal(list1 *ListNode, list2 *ListNode) (val int, whichNext int) {
+	if list1 == nil {
+		return list2.Val, 2
 	}
-	head := &ListNode{Val: array[0], Next: nil}
-	curr := head
-	for i := 1; i < len(array); i++ {
-		curr.Next = &ListNode{Val: array[i], Next: nil}
-		curr = curr.Next
+	if list2 == nil {
+		return list1.Val, 1
 	}
-	return head
+	if list1.Val > list2.Val {
+		return list2.Val, 2
+	}
+	return list1.Val, 1
 }
