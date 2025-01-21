@@ -38,9 +38,85 @@ func TestAddTwoNumbers(t *testing.T) {
 	}
 	r := addTwoNumbers(&l1, &l2)
 	for r != nil {
-		assert.Equal(t, r.Val, expected.Val)
-		r.Val = expected.Val
-		r = r.Next
+		assert.Equal(t, expected.Val, r.Val)
 		expected = expected.Next
+		r = r.Next
+	}
+}
+
+func TestAddTwoNumbers2(t *testing.T) {
+	l1 := ListNode{
+		Val: 0,
+	}
+	l2 := ListNode{
+		Val: 0,
+	}
+
+	expected := &ListNode{
+		Val: 0,
+	}
+	r := addTwoNumbers(&l1, &l2)
+	for r != nil {
+		assert.Equal(t, expected.Val, r.Val)
+		expected = expected.Next
+		r = r.Next
+	}
+}
+
+func TestAddTwoNumbers3(t *testing.T) {
+	l1 := ListNode{
+		Val: 9,
+		Next: &ListNode{
+			Val: 9,
+			Next: &ListNode{
+				Val: 9,
+				Next: &ListNode{
+					Val: 9,
+					Next: &ListNode{
+						Val: 9,
+						Next: &ListNode{
+							Val: 9,
+							Next: &ListNode{
+								Val: 9,
+							}}}}, // a list of length 6
+			},
+		},
+	}
+	l2 := ListNode{
+		Val: 9,
+		Next: &ListNode{
+			Val: 9,
+			Next: &ListNode{
+				Val: 9,
+				Next: &ListNode{
+					Val: 9,
+				},
+			},
+		},
+	}
+	expected := &ListNode{
+		Val: 8,
+		Next: &ListNode{
+			Val: 9,
+			Next: &ListNode{
+				Val: 9,
+				Next: &ListNode{
+					Val: 0,
+					Next: &ListNode{
+						Val: 0,
+						Next: &ListNode{
+							Val: 0,
+							Next: &ListNode{
+								Val:  1,
+								Next: nil}}}}, // a list of length 5
+			},
+		},
+	}
+	r := addTwoNumbers(&l1, &l2)
+	for r != nil {
+
+		assert.Equal(t, expected.Val, r.Val)
+		expected = expected.Next
+		r = r.Next
 	}
 }
