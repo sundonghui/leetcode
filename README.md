@@ -76,6 +76,7 @@ go test ./...
 | 242 | [ 有效的字母异位词 ](https://leetcode.cn/problems/valid-anagram/description/?envType=study-plan-v2&envId=top-interview-150)                                    | [Go](./algorithms/go/isAnagram/isAnagram.go)                               | 简单 |
 | 290 | [ 单词规律 ](https://leetcode.cn/problems/word-pattern/description/?envType=study-plan-v2&envId=top-interview-150)                                             | [Go](./algorithms/go/wordPattern/wordPattern.go)                           | 简单 |
 | 452 | [ 用最少数量的箭引爆气球 ](https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/description/?envType=study-plan-v2&envId=top-interview-150) | [Go](./algorithms/go/findMinArrowShots/findMinArrowShots.go)               | 中等 |
+| 1117 | [ H2O 生成 ](https://leetcode.cn/problems/building-h2o/description/) | [Go](./algorithms/go/buildingH2O/buildingH2O.go)               | 中等 |
 
 ## 数据库
 
