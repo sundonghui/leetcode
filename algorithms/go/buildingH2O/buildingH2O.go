@@ -66,7 +66,7 @@ func (h2o *H2O) Oxygen(releaseOxygen func()) {
 func main() {
 	var result []byte
 	var mu sync.Mutex
-	water := "OHOOHHHH"
+	water := "HHHHHHOOO"
 	h2o := NewH2O()
 
 	var wg sync.WaitGroup
