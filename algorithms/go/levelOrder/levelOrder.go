@@ -7,28 +7,25 @@ type TreeNode struct {
 }
 
 func levelOrder(root *TreeNode) [][]int {
-	// 为了通过测试用例 34，必须加这一行。
 	if root == nil {
 		return nil
 	}
-	var res [][]int
 	list := []*TreeNode{root}
+	resultList := [][]int{}
 	for len(list) > 0 {
-		levelList := []int{}
-		tmpList := []*TreeNode{}
-		for _, v := range list {
-			if v != nil {
-				levelList = append(levelList, v.Val)
-				if v.Left != nil {
-					tmpList = append(tmpList, v.Left)
-				}
-				if v.Right != nil {
-					tmpList = append(tmpList, v.Right)
-				}
+		intList := []int{}
+		tempList := make([]*TreeNode, 0, len(list))
+		for _, node := range list {
+			intList = append(intList, node.Val)
+			if node.Left != nil {
+				tempList = append(tempList, node.Left)
+			}
+			if node.Right != nil {
+				tempList = append(tempList, node.Right)
 			}
 		}
-		res = append(res, levelList)
-		list = tmpList
+		list = tempList
+		resultList = append(resultList, intList)
 	}
-	return res
+	return resultList
 }
