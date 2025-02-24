@@ -10,3 +10,8 @@ func TestGenerateParenthesis(t *testing.T) {
 	expected := []string{"((()))", "(()())", "(())()", "()(())", "()()()"}
 	assert.Equal(t, expected, generateParenthesis(3))
 }
+
+func TestGenerateParenthesis2(t *testing.T) {
+	expected := []string{"()"}
+	assert.Equal(t, expected, generateParenthesis(1))
+}

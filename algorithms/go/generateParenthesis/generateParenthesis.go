@@ -3,20 +3,24 @@ package generateparenthesis
 var res []string
 
 func generateParenthesis(n int) []string {
-	res = make([]string, 0, n)
-	dfs(n, 0, 0, "")
-	return res
-}
-
-func dfs(n, lc, rc int, path string) {
-	if lc == n && rc == n {
-		res = append(res, path)
-		return
+	m := n * 2
+	ans := []string{}
+	path := make([]byte, m)
+	var dfs func(int, int)
+	dfs = func(i, open int) {
+		if i == m {
+			ans = append(ans, string(path))
+			return
+		}
+		if open < n {
+			path[i] = '('
+			dfs(i+1, open+1)
+		}
+		if i-open < open {
+			path[i] = ')'
+			dfs(i+1, open)
+		}
 	}
-	if lc < n {
-		dfs(n, lc+1, rc, path+"(")
-	}
-	if rc < lc {
-		dfs(n, lc, rc+1, path+")")
-	}
+	dfs(0, 0)
+	return ans
 }
